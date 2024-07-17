@@ -1,1 +1,1 @@
-# device-sony-pdx247
+# device-sony-pdx246
