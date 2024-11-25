@@ -26,7 +26,7 @@ $(warning Unrecognized value for TARGET_PRODUCT: "$(TARGET_PRODUCT)", using defa
 endif
 
 # Kernel cmdline
-BOARD_KERNEL_CMDLINE += androidboot.hardware=pdx246
+BOARD_BOOTCONFIG += androidboot.hardware=pdx246
 BOARD_KERNEL_CMDLINE += androidboot.fstab_suffix=pdx246
 
 # FB console
