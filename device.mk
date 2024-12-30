@@ -29,19 +29,10 @@ PRODUCT_COPY_FILES += \
 
 # Audio calibration
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/vendor/etc/acdbdata/aw88261_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/aw88261_acdb_cal.acdb \
-    $(DEVICE_PATH)/vendor/etc/acdbdata/aw88261_workspace.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/aw88261_workspace.qwsp \
-    $(DEVICE_PATH)/vendor/etc/acdbdata/aw88263_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/aw88263_acdb_cal.acdb \
-    $(DEVICE_PATH)/vendor/etc/acdbdata/aw88263_workspace.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/aw88263_workspace.qwsp \
-    $(DEVICE_PATH)/vendor/etc/acdbdata/parrot_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/parrot_acdb_cal.acdb \
-    $(DEVICE_PATH)/vendor/etc/acdbdata/parrot_workspace.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/parrot_acdb_cal.qwsp \
-    $(DEVICE_PATH)/vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd \
-    $(DEVICE_PATH)/vendor/etc/acdbdata/nn_ns_models/fai__4.6.1_0.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_1.43_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__4.6.1_0.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_1.43_enpu2.pmd \
-    $(DEVICE_PATH)/vendor/etc/acdbdata/nn_ns_models/fai__2.7.2_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.7.2_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd \
-    $(DEVICE_PATH)/vendor/etc/acdbdata/nn_ns_models/fai__2.7.20_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.7.20_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd \
-    $(DEVICE_PATH)/vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd \
-    $(DEVICE_PATH)/vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd \
-    $(DEVICE_PATH)/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd
+    $(DEVICE_PATH)/vendor/etc/acdbdata/AW88261/acdb_cal_aw88261.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/AW88261/acdb_cal_aw88261.acdb \
+    $(DEVICE_PATH)/vendor/etc/acdbdata/AW88261/workspaceFileXml_aw88261.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/AW88261/workspaceFileXml_aw88261.qwsp \
+    $(DEVICE_PATH)/vendor/etc/acdbdata/AW88263/acdb_cal_aw88263.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/AW88263/acdb_cal_aw88263.acdb \
+    $(DEVICE_PATH)/vendor/etc/acdbdata/AW88263/workspaceFileXml_aw88263.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/AW88263/workspaceFileXml_aw88263.qwsp
 
 # NFC Configuration
 PRODUCT_COPY_FILES += \
