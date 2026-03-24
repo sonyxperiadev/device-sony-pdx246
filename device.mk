@@ -30,8 +30,8 @@ PRODUCT_COPY_FILES += \
 
 # Audio calibration
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/vendor/etc/acdbdata/AW88263/acdb_cal_aw88263.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/AW88263/acdb_cal_aw88263.acdb \
-    $(DEVICE_PATH)/vendor/etc/acdbdata/AW88263/workspaceFileXml_aw88263.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/AW88263/workspaceFileXml_aw88263.qwsp
+    $(DEVICE_PATH)/vendor/etc/acdbdata/parrot_qrd_sku1/acdb_cal_aw88263.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/parrot_qrd_sku1/acdb_cal_aw88263.acdb \
+    $(DEVICE_PATH)/vendor/etc/acdbdata/parrot_qrd_sku1/workspaceFileXml_aw88263.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/parrot_qrd_sku1/workspaceFileXml_aw88263.qwsp
 
 # NFC Configuration
 PRODUCT_COPY_FILES += \
