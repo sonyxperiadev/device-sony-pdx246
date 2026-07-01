@@ -15,9 +15,6 @@
 # Device path
 DEVICE_PATH := device/sony/pdx246/rootdir
 
-DEVICE_PACKAGE_OVERLAYS += \
-    device/sony/pdx246/overlay
-
 # Device Specific Permissions
 PRODUCT_COPY_FILES := \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml \
@@ -53,6 +50,11 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/vendor/etc/sensors/config/parrot_qrd_mmc56x3x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/parrot_qrd_mmc56x3x_0.json \
     $(DEVICE_PATH)/vendor/etc/sensors/config/parrot_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/parrot_power_0.json \
     $(DEVICE_PATH)/vendor/etc/sensors/config/parrot_dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/parrot_dynamic_sensors.json
+
+# Device Runtime Resource Overlays
+PRODUCT_PACKAGES += \
+    FrameworkOverlayPDX246 \
+    SystemUIOverlayPDX246
 
 # Device Init
 PRODUCT_PACKAGES += \
